@@ -1,4 +1,4 @@
-# Meeting & Lecture Summarizer
+# Sumview - Meeting & Lecture Summarizer
 
 A comprehensive system for processing video and audio recordings to generate follow-up posts, articles, summaries, and comprehension tests. Perfect for university lectures and business meetings.
 
@@ -31,7 +31,7 @@ A comprehensive system for processing video and audio recordings to generate fol
 - **Knowledge Graphs**: GraphRAG with NetworkX for relationship modeling
 - **Web Research**: nlweb for real-time content enhancement
 - **Database**: SQLAlchemy (SQLite by default)
-- **Frontend**: Bootstrap 5, Vanilla JavaScript
+- **Frontend**: React with Tailwind CSS
 - **Media Processing**: MoviePy, PyDub, FFmpeg
 - **NLP**: spaCy for advanced natural language processing
 
@@ -39,7 +39,8 @@ A comprehensive system for processing video and audio recordings to generate fol
 
 1. **Clone and navigate to the project**:
    ```bash
-   cd /Users/karenzhang/Summarizer
+   git clone https://github.com/GitHub-HackDay/Sumview.git
+   cd Sumview
    ```
 
 2. **Install Python dependencies**:
